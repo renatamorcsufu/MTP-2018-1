@@ -31,7 +31,7 @@ int main()
 
    	case 1:
    		printf("\nDigite o numero binario que deseja converter: ");
-   		scanf("%s", &bin);
+   		scanf("%s", bin);
    		getchar();
    		while (bin[k]!='\0'){
    			k++;
@@ -54,7 +54,7 @@ int main()
 		  
       case 2:
 	   printf("\nDigite o numero binario a ser convertido: ");
-	   scanf("%s", &bin2);
+	   scanf("%s", bin2);
 	   getchar();
 	   for( cont = 0; bin2[cont]!= '\0'; cont++);
 	   cont--;		   
@@ -97,12 +97,12 @@ int main()
     	printf("\nInforme o numero hexadecimal a ser convertido: ");
     	scanf("%x", &valor);
     	getchar();
-    	for (j = 14; j >= 0; j--)  // Executa a operaÁ„o shift right atÈ a 
-    // ˙ltima posiÁ„o da direita para cada bit.
+    	for (j = 14; j >= 0; j--)  // Executa a opera√ß√£o shift right at√© a 
+    // √∫ltima posi√ß√£o da direita para cada bit.
     	{
-    		d = valor >> j; // Por meio do "e" lÛgico ele compara se o valor 
-    // na posiÁ„o mais ‡ direita È 1 ou 0 
-    // e imprime na tela atÈ reproduzir o n˙mero bin·rio.
+    		d = valor >> j; // Por meio do "e" l√≥gico ele compara se o valor 
+    // na posi√ß√£o mais √† direita √© 1 ou 0 
+    // e imprime na tela at√© reproduzir o n√∫mero bin√°rio.
     		if( d & 1)
     		{
     			printf("1");

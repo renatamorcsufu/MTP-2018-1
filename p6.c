@@ -1,3 +1,6 @@
+//Renata Moreira da costa
+//11721EBI008
+
 #include <stdio.h>
 
 float media(int somar, float cont){

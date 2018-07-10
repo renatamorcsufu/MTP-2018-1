@@ -28,7 +28,7 @@ int main()
 		armaz = 0;
 	}
 	if ( estado == 0)
-	printf("\nO numero binario %s  , eh multipolo de 3!", numerob);
+	printf("\nO numero binario %s  , eh multiplo de 3!", numerob);
 	else
 	printf("\nO numero binario %s , nao eh multiplo de 3!", numerob);
 	return 0;
